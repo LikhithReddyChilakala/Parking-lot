@@ -1,0 +1,39 @@
+package com.parkinglot.models;
+
+import com.parkinglot.enums.VehicleType;
+
+public class Vehicle {
+    private String licensePlate;
+    private VehicleType type;
+    private String color;
+
+    public Vehicle(String licensePlate, VehicleType type, String color) {
+        this.licensePlate = licensePlate;
+        this.type = type;
+        this.color = color;
+    }
+
+    public String getLicensePlate() {
+        return licensePlate;
+    }
+
+    public void setLicensePlate(String licensePlate) {
+        this.licensePlate = licensePlate;
+    }
+
+    public VehicleType getType() {
+        return type;
+    }
+
+    public void setType(VehicleType type) {
+        this.type = type;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+}
